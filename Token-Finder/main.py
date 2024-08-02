@@ -1,3 +1,5 @@
+# did not make this script just changed to print, credits to the creator
+
 import binascii
 import os
 import requests
