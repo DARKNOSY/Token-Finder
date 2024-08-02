@@ -39,8 +39,8 @@ be connected to a discord account
 understanding of a discord token
 
 ### [+] Credits 
-- `<a href="https://github.com/DARKNOSY/Token-Finder/">DARKNOSY</a>`
-- `To the person who made the orginal token grabber script`
+- <a href="https://github.com/DARKNOSY/Token-Finder/">DARKNOSY</a>
+- To the person who made the orginal token grabber script
 
 ### [+] Disclaimer 
 I am not responsible of what you make with this script. You take accountability for your own actions.
