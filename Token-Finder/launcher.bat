@@ -15,6 +15,8 @@ if %errorlevel% neq 0 (
         exit /b 1
     )
 )
+pip uninstall Crypto pycryptodome
+pip install pycryptodome requests pywin32
 cls
 
 py -m main
