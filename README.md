@@ -1,5 +1,6 @@
 <h2 align="center"><u>Token Finder</u></h2>
 
+![](https://github.com/DARKNOSY/Token-Finder/blob/main/dream.png?raw=true)
 <p align="center">
     <img src="https://img.shields.io/github/stars/DARKNOSY/Token-Finder?style=for-the-badge&color=orange">
     <img src="https://img.shields.io/github/forks/DARKNOSY/Token-Finder?style=for-the-badge&color=purple">
